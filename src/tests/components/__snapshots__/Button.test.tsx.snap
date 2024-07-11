@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button> should render as disabled primary button 1`] = `
+<div>
+  <button
+    class="py-2 px-4 rounded [&[disabled]]:bg-slate-200 bg-green-600 text-white hover:bg-green-500"
+    disabled=""
+    type="button"
+  >
+    $
+    Primary
+  </button>
+</div>
+`;
+
+exports[`<Button> should render as disabled secondary button 1`] = `
+<div>
+  <button
+    class="py-2 px-4 rounded [&[disabled]]:bg-slate-200 bg-red-600 text-white hover:bg-red-500"
+    disabled=""
+    type="button"
+  >
+    $
+    Secondary
+  </button>
+</div>
+`;
+
+exports[`<Button> should render as link button when given href 1`] = `
+<div>
+  <a
+    class="py-2 px-4 rounded [&[disabled]]:bg-slate-200"
+    type="button"
+  >
+    Link
+  </a>
+</div>
+`;
+
+exports[`<Button> should render as primary button 1`] = `
+<div>
+  <button
+    class="py-2 px-4 rounded [&[disabled]]:bg-slate-200 bg-green-600 text-white hover:bg-green-500"
+    type="button"
+  >
+    $
+    Primary
+  </button>
+</div>
+`;
+
+exports[`<Button> should render as secondary button 1`] = `
+<div>
+  <button
+    class="py-2 px-4 rounded [&[disabled]]:bg-slate-200 bg-red-600 text-white hover:bg-red-500"
+    type="button"
+  >
+    $
+    Secondary
+  </button>
+</div>
+`;

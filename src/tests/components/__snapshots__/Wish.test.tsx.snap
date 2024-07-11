@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Wish> should render with blank form 1`] = `
+<div>
+  <section>
+    <h2
+      class="text-4xl font-bold mb-4 dark:text-white"
+    >
+      Make a wish to Santa
+    </h2>
+    <form
+      class="mb-4 flex flex-col gap-2 border rounded p-2"
+    >
+      <div
+        class="flex flex-col gap-1 text-gray-400"
+      >
+        <label
+          for="name"
+        >
+          ID:
+        </label>
+        <div
+          class="border border-zinc-200 rounded bg-transparent"
+        >
+          <input
+            aria-labelledby="name"
+            class="bg-transparent p-2 w-full"
+            id="name"
+            maxlength="50"
+            name="name"
+            placeholder="Good boys and girls"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-1 text-gray-400"
+      >
+        <label
+          for="msg"
+        >
+          Message:
+        </label>
+        <div
+          class="border border-zinc-200 rounded bg-transparent"
+        >
+          <textarea
+            aria-labelledby="msg"
+            class="bg-transparent p-2 w-full"
+            id="msg"
+            name="msg"
+            placeholder="What do you want for Christmas?"
+            type="textarea"
+          />
+        </div>
+      </div>
+      <section
+        class="flex gap-2"
+      >
+        <button
+          class="py-2 px-4 rounded [&[disabled]]:bg-slate-200 bg-red-600 text-white hover:bg-red-500"
+          type="button"
+        >
+          Clear
+        </button>
+        <button
+          class="py-2 px-4 rounded [&[disabled]]:bg-slate-200 bg-green-600 text-white hover:bg-green-500"
+          disabled=""
+          type="submit"
+        >
+          Submit
+        </button>
+      </section>
+    </form>
+    <div
+      class="flex flex-col gap-1 text-gray-400"
+    >
+      <label>
+        one
+      </label>
+      <div
+        class="border border-zinc-200 rounded bg-transparent"
+      >
+        <input
+          class="bg-transparent p-2 w-full"
+          value=""
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;
